@@ -36,14 +36,14 @@ If port argument is not defined will be used 1234 by default.
 Published Api
 ----------------------------------------------------------
 
-GET: /accounts - gets all accounts
+**GET**:		/accounts - gets all accounts
 
-POST: http://{host/IP}:{port}/account?custName={value}&bal={value}- Please creates account with initial balance
+**POST**:		http://{host/IP}:{port}/account?custName={value}&bal={value}- Please creates account with initial balance
 
-GET: /account/{account_id} - gets account by id 
+**GET**:	 /account/{account_id} - gets account by id 
 
-POST: http://{host/IP}:{port}/transfer?transfer?fromAcc={value}&toAcc={value}&amount={value} - transfers money between accounts
+**POST**: 	http://{host/IP}:{port}/transfer?transfer?fromAcc={value}&toAcc={value}&amount={value} - transfers money between accounts
 
-GET: /transfers - gets all transfer details
+**GET**:		/transfers - gets all transfer details
 
-GET: /transfer/{trans_id} - gets account by id
+**GET**:		/transfer/{trans_id} - gets account by id
