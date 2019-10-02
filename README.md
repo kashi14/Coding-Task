@@ -46,4 +46,4 @@ Published Api
 
 **GET**:		/transfers - gets all transfer details
 
-**GET**:		/transfer/{trans_id} - gets account by id
+**GET**:		/transfer/{trans_id} - gets account transfer id
